@@ -1,0 +1,23 @@
+{
+  "name": "web-runner",
+  "version": "1.0.0",
+  "description": "day day up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/candyman0753/web-runner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/candyman0753/web-runner/issues"
+  },
+  "homepage": "https://github.com/candyman0753/web-runner#readme",
+  "dependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}
