@@ -1,0 +1,48 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe D:\node\node_global\node_modules\yarn\bin\yarn.js config set prefix D:\yarn\yarn_global
+
+PATH: 
+  C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\chocolatey\bin;D:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files (x86)\Git\bin;C:\Windows;C:\Windows\system32;C:\Windows\System32\Wbem;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\node;C:\Program Files\Bandizip\;C:\Users\candyGood\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\Java\jdk-12.0.2\jre\bin;C:\Users\candyGood\AppData\Local\Programs\Fiddler;C:\Users\candyGood\AppData\Local\BypassRuntm;%NRM_PATH%;D:\node\node_global;D:\node\node_global\node_modules
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EINVAL: invalid argument, mkdir 'C:\Users\candyGood\'D:\yarn\yarn_global''
+
+npm manifest: 
+  {
+    "name": "web-runner",
+    "version": "1.0.0",
+    "description": "day day up",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/candyman0753/web-runner.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/candyman0753/web-runner/issues"
+    },
+    "homepage": "https://github.com/candyman0753/web-runner#readme",
+    "dependencies": {
+      "cz-conventional-changelog": "^3.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
